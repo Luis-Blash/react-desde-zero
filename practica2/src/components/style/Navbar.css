@@ -1,0 +1,40 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 5em;
+    background-color: #F5F5F5;
+    overflow: hidden;
+}
+.navbar-img{
+    flex-basis: calc(50% - 1rem);
+    overflow: hidden;
+    height: 100%;
+}
+
+.navbar-img  a img{
+    width: 7em;
+    height: 100%;
+}
+
+.navbar-info{
+    flex-basis: calc(50% - 1rem);
+}
+
+.navbar-link{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.navbar-link > .link{
+    margin: 0 10px;
+    color: #6E6E6E;
+    transition: all ease 1s;
+}
+
+.navbar-link > .link:hover{
+    color: #000000;
+}

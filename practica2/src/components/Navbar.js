@@ -1,16 +1,22 @@
 import React from 'react';
+import './style/Navbar.css';
+import img from '../img/cnav.png';
 
 class Navbar extends React.Component{
     render(){
         return(
             <div className="navbar">
                 <div className="navbar-img">
-                    <img src="" alt="Imagen logo"></img>
+                    <a href="#">
+                        <img src={img} alt="Imagen logo"></img>
+                    </a>
                 </div>
+                <h2>Castlenavia</h2>
                 <div className="navbar-info">
-                    <h3>Creada por</h3>
-                    <a href="#">Información</a>
-                    <a href="#">Acerca de</a>
+                    <div className="navbar-link">
+                        <a className="link" href="#">Información</a>
+                        <a className="link" href="#">Acerca de</a>
+                    </div>
                 </div>
             </div>
         );
