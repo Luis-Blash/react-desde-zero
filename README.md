@@ -12,3 +12,6 @@ npm install @babel/core @babel/preset-env @babel/preset-react babel-loader html-
 ## Practica 1 📙
 Es una estrutura basica para poder usar react sin create-react-app
 
+## Practica 2 📙
+Es una practica usando la muestra de css y de componetes para hacer una pagina de castlevania.
+
