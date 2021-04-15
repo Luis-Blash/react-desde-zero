@@ -1,0 +1,10 @@
+# React desde zero
+# Practica 1
+Es una explicación sencilla de como usar React desde cero.
+Necesitas instalar
+´´´bash
+npm install react react-dom -S
+´´´
+´´´bash
+´´´
+npm install react react-dom -S
