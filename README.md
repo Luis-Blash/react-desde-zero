@@ -1,14 +1,14 @@
-# React desde zero
+# React desde zero 🖥
 Todo proyecto necesita instalar
-´´´bash
+```bash
 npm install react react-dom -S
-´´´
-´´´bash
+```
+```bash
 npm install webpack webpack-cli webpack-dev-server -D
-´´´
-´´´bash
+```
+```bash
 npm install @babel/core @babel/preset-env @babel/preset-react babel-loader html-loader html-webpack-plugin -D 
-´´´
-## Practica 1
+```
+## Practica 1 📙
 Es una estrutura basica para poder usar react sin create-react-app
 
