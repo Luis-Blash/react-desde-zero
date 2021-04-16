@@ -1,0 +1,28 @@
+.card-juegos{
+    border-radius: 15px;
+    box-shadow: 3px 6px #ccc, 0px 3px 6px #ccc;
+    width: 180px;
+    height: 200px;
+    margin: 10px;
+    text-align: center;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card-juegos > div{
+    flex-basis: calc(50% - 1rem);
+}
+
+.card-juegos-img img{
+    width: 5em;
+    height: 100%;
+}
+
+.card-juegos-textos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+}
