@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter,Route,Switch } from "react-router-dom";
+import { BrowserRouter,Route,Switch,Redirect } from "react-router-dom";
 import Layout from './Layout';
 import About from '../pages/About';
 import Juegos from './Juegos';
@@ -10,8 +10,9 @@ function App(){
             <Layout>
                 <Switch>
                     <Route exact path="/" component={Juegos}/>
-                    <Route path="/about" component={About}/>
+                    <Route exact path="/about" component={About}/>
                     <Route component={Juegos} />
+                    <Redirect from="*" to="/404/"/>
                 </Switch>
             </Layout>
         </BrowserRouter>
