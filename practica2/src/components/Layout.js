@@ -4,7 +4,7 @@ import Navbar from './Navbar';
 const Layout = (props) => {
     return(
         <React.Fragment>
-            <Navbar/>
+            <Navbar titulo="Castlevania"/>
             {props.children}
         </React.Fragment>
     );
