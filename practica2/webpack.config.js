@@ -8,11 +8,13 @@ module.exports = {
         compress: true,
         port: 9000,
         host: '0.0.0.0',
+        historyApiFallback: true,
     },
     entry: './src/index.js',
     output: {
         path: path.resolve(__dirname, 'dist'),
         filename: 'build.js',
+        publicPath: '/',
     },
     resolve: {
         extensions: ['.js', '.jsx']
