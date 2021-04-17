@@ -10,7 +10,9 @@ export default class Footer extends React.Component{
                     <Link className="link" to="/">
                         <h1>{this.props.titulo}</h1>
                     </Link>
-                    <span>{this.props.quien}</span>
+                    <Link className="link" to="/miportafolio">
+                        <span>{this.props.quien}</span>
+                    </Link>
                 </div>
             </React.Fragment>
         );

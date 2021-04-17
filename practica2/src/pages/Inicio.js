@@ -8,7 +8,6 @@ export default class Inicio extends React.Component{
             <React.Fragment>
                 <div className="Inicio">
                     <Historia/>
-                    <Juegos/>
                 </div>
             </React.Fragment>
         );
