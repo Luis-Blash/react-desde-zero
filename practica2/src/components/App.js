@@ -2,16 +2,17 @@ import React from 'react';
 import { BrowserRouter,Route,Switch,Redirect } from "react-router-dom";
 import Layout from './Layout';
 import About from '../pages/About';
-import Juegos from './Juegos';
+import Inicio from '../pages/Inicio';
+
 
 function App(){
     return(
         <BrowserRouter>
             <Layout>
                 <Switch>
-                    <Route exact path="/" component={Juegos}/>
+                    <Route exact path="/" component={Inicio}/>
                     <Route exact path="/about" component={About}/>
-                    <Route component={Juegos} />
+                    <Route component={Inicio} />
                     <Redirect from="*" to="/404/"/>
                 </Switch>
             </Layout>

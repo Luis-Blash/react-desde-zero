@@ -9,7 +9,7 @@ const Layout = (props) => {
             <div className="contenedor">
                 {props.children}
             </div>
-            <Footer/>
+            <Footer titulo="Castlevania" quien="Luis Enrique"/>
         </React.Fragment>
     );
 }

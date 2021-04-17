@@ -12,7 +12,9 @@ class Navbar extends React.Component {
                         <img src={img} alt="Imagen logo"></img>
                     </Link>
                 </div>
-                <h2>{this.props.titulo}</h2>
+                <Link className="link" to="/">
+                    <h1>{this.props.titulo}</h1>    
+                </Link>
                 <div className="navbar-info">
                     <div className="navbar-link">
                         <Link className="link" to="/informacion">Información</Link>
