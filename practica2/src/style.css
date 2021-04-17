@@ -6,3 +6,12 @@
 .link{
     text-decoration: none;
 }
+
+#app > .navbar,
+#app > .footer{
+    height: 5em;
+}
+
+#app > .contenedor{
+    min-height: calc(100vh - 5em - 5em);
+}

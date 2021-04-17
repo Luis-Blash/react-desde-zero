@@ -1,11 +1,15 @@
 import React from 'react';
+import Footer from './Footer';
 import Navbar from './Navbar';
 
 const Layout = (props) => {
     return(
         <React.Fragment>
             <Navbar titulo="Castlevania"/>
-            {props.children}
+            <div className="contenedor">
+                {props.children}
+            </div>
+            <Footer/>
         </React.Fragment>
     );
 }
