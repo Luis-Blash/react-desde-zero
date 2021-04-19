@@ -1,4 +1,6 @@
 import React from "react";
+import './style/Historia.css';
+import fondo from '../img/castlevania.jpeg';
 
 export default class Historia extends React.Component {
     render() {
@@ -6,7 +8,7 @@ export default class Historia extends React.Component {
             <React.Fragment>
                 <div className="historia-card">
                     <div className="historia-img">
-                        <img src="" alt="Castlevania" />
+                        <img src={fondo} alt="Castlevania" />
                     </div>
                     <div className="historia-texto">
                         <h1>Castlevania</h1>

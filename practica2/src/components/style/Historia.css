@@ -1,0 +1,30 @@
+.historia-card{
+    width: 90%;
+    margin: 0 auto;
+    box-shadow: 0px 1px 4px #f2422e, 0px 2px 4px #f2422e;
+    border-bottom-right-radius: 25px;
+    border-top-left-radius: 25px;
+    padding: 1em;
+
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 1em;
+}
+
+.historia-img img{
+    width: 100%;
+    border-radius: 25px;
+}
+
+.historia-texto{
+    text-align: center;
+    line-height: 2em;
+}
+.historia-texto h1{
+    margin-bottom: 15px;
+}
+
+.historia-texto p{
+    text-align: justify;
+    font-size: 1.2em;
+}
