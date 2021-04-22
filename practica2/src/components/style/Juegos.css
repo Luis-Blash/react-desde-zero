@@ -1,0 +1,23 @@
+.grid-juegos{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1em;
+    width: 80%;
+    margin: 10px auto;
+}
+.card-juegos{
+    box-shadow: 3px 5px #ccc, 0px 3px 5px #ccc;
+    border-radius: 15px;
+    padding: 15px;
+}
+.card-juegos-textos h2{
+    text-align: center;
+}
+.card-juegos-textos span{
+    color: #ccc;
+}
+
+.card-juegos-textos p{
+    text-align: justify;
+}
+

@@ -1,30 +1,30 @@
 [
     {
+        "id": 1,
         "titulo":"Castlevania symphony of the night",
         "consola": "PS1",
         "descripcion": "Castlevania: Symphony of the Night, conocido en Japón como Akumajō Dracula X: Gekka no Yasōkyoku, es un videojuego de acción-aventura de gráficos 2D desarrollado y publicado por Konami en el año 1997.",
-        "fecha_creacion": 1997,
-        "img":"1.jpeg"
+        "fecha_creacion": 1997
     },
     {
+        "id": 2,
         "titulo":"Castlevania: Lords of Shadow",
         "consola": "PS3",
         "descripcion": "Castlevania: Lords of Shadow - Mirror of Fate es un juego publicado por Konami y creado por MercurySteam para Nintendo 3DS, PlayStation 3, Xbox 360 y ordenador personal. Pertenece a la saga Castlevania y es la secuela de Castlevania: Lords of Shadow.",
-        "fecha_creacion": 2013,
-        "img":"2.jpeg"
+        "fecha_creacion": 2013
     },
     {
+        "id": 3,
         "titulo":"Castlevania curse of darkness",
         "consola": "PS2",
         "descripcion": "Castlevania: Curse of Darkness es un videojuego de la serie de Konami Castlevania que fue lanzado el 27 de septiembre de 2005 para PlayStation 2 y Xbox.",
-        "fecha_creacion": 2005,
-        "img":"3.jpeg"
+        "fecha_creacion": 2005
     },
     {
+        "id": 4,
         "titulo":"Castlevania Legends",
         "consola": "GAME BOY",
         "descripcion": "Castlevania Legends es la tercera y última aparición de la saga Castlevania en la Game Boy original. El juego fue lanzado en Japón el 27 de noviembre de 1997 y en Estados Unidos el 11 de marzo de 1998. Su nombre original en japonés es Devil's Castle Dracula: Dark Night Prelude. ",
-        "fecha_creacion": 1997,
-        "img":"4.jpeg"
+        "fecha_creacion": 1997
     }
 ]
