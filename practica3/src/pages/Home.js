@@ -1,10 +1,12 @@
 import React from "react";
+import CardReviews from "../components/CardReviews";
 
 export default class Home extends React.Component{
     render(){
         return(
             <React.Fragment>
                 <h1>Hola Home</h1>
+                <CardReviews/>
             </React.Fragment>
         );
     }
