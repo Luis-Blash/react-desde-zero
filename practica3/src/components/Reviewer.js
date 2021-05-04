@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 
 
 
@@ -31,7 +31,7 @@ class Reviewer extends React.Component {
 
     render() {
         return (
-            <div className="reviewer-card">
+            <div className="reviewer-card margin-left">
                 <div className="reviewer-info">
                     <div className="reviewer-data">
                         <h1>{this.state.data.username}</h1>

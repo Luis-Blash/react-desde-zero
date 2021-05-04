@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.margin-left{
+    margin-left: 8rem;
+    padding-left: 3rem;
+    padding-top: 1rem;
+}

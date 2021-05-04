@@ -1,14 +1,18 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import './style/Navbar.css';
+import image from '../assets/anime.png';
 
 export default class Navbar extends React.Component{
     render(){
         return(
             <React.Fragment>
                 <div className="background-nav">
-                    <div className="fixed-nav">
+                    <div className="navbar">
                         <div className="img-nav">
-                            <img src="#" alt="imagen navbar"></img>
+                            <Link to="/">
+                                <img src={image} alt="imagen navbar"></img>
+                            </Link>
                         </div>
                         <div className="nav-route">
                             <Link to="/">Home</Link>
