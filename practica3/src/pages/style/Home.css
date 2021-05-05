@@ -13,22 +13,12 @@
     line-height: 25px;
 }
 .btn-home{
+    height: 30px;
     background-color: #ff1919;
-    transition: all ease .5s;
-    text-align: center;
+    margin-top: 15px;
 }
 
 .btn-home a{
-    display: block;
-    color: #fff;
     font-size: 18px;
-    transition: all ease .3s;
-}
-
-.btn-home:hover{
-    background-color: #ffffff;
-}
-
-.btn-home a:hover{
-    color: #000;
+    color: #fff;
 }

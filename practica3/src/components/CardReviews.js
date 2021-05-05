@@ -1,5 +1,6 @@
 import { Component, Fragment } from "react";
 import { Link } from "react-router-dom";
+import './style/CardReviews.css'
 
 class CardReviews extends Component {
     state = {
@@ -19,6 +20,7 @@ class CardReviews extends Component {
         try {
             const reponse = await fetch(`https://api.jikan.moe/v3/anime/1/reviews/${this.state.nextPage}`);
             const data = await reponse.json();
+            //console.log(data)
             const dataContinue = [].concat(this.state.data, data.reviews);
             this.setState({ loading: false, data: dataContinue, nextPage: this.state.nextPage + 1 })
         } catch (error) {
@@ -34,21 +36,20 @@ class CardReviews extends Component {
                     <div className="grid-reviewers">
                         {this.state.data.map(element => (
                             <div className="div-reviewer" key={element.mal_id}>
-                                <h2>Reviewer</h2>
-                                <div className="info-reviewer">
-                                    <div className="score-reviewer">
-                                        <p>Score Animation: {element.reviewer.scores.animation}</p>
-                                    </div>
-                                    <div className="data-reviewer">
-                                        <p>Name: {element.reviewer.username}</p>
-                                        <p>Episodes seen: {element.reviewer.username}</p>
-                                    </div>
-                                    <div className="btn-reviewer">
-                                        <Link to={`/reviewer/${element.reviewer.username}`}>Ir</Link>
-                                    </div>
-                                </div>
                                 <div className="img-anime">
                                     <img src={element.reviewer.image_url} alt={element.reviewer.username} />
+                                </div>
+                                <div className="info-reviewer">
+                                    <h2>{element.reviewer.username}</h2>
+                                    <div className="flex-right">
+                                        <div className="btn btn-reviewer">
+                                            <Link to={`/reviewer/${element.reviewer.username}`}>Ir</Link>
+                                        </div>
+                                    </div>
+                                    <div className="data-reviewer">
+                                        <p>Animation: {element.reviewer.scores.animation}</p>
+                                        <p>Episodes seen: {element.reviewer.episodes_seen}</p>
+                                    </div>
                                 </div>
                             </div>
                         ))}

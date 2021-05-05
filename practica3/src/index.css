@@ -16,7 +16,26 @@ a{
 .btn{
     border: #000000 solid 1px;
     width: 70px;
-    height: 30px;
-    margin-top: 15px;
     border-radius: 6px;
+    transition: all ease .5s;
+    text-align: center;
+}
+
+.btn a{
+    display: block;
+    transition: all ease .3s;
+    color: #fff;
+}
+
+.btn:hover{
+    background-color: #ffffff;
+}
+
+.btn a:hover{
+    color: #000;
+}
+
+.flex-right{
+    display: flex;
+    justify-content: flex-end;
 }
