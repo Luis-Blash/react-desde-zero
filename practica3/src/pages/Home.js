@@ -19,8 +19,10 @@ export default class Home extends React.Component {
                                 Notice: Jikan does not support authenticated requests. You can not update your lists.
                             </p>
                         </div>
-                        <div className="btn btn-home">
-                            <a href="https://jikan.docs.apiary.io/#">Jikan</a>
+                        <div className="flex-right">
+                            <div className="btn btn-home">
+                                <a href="https://jikan.docs.apiary.io/#">Jikan</a>
+                            </div>
                         </div>
                     </div>
                     <CardReviews />

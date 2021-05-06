@@ -1,0 +1,48 @@
+.reviewer-card{
+    position: relative;
+    margin: 0 auto;
+    margin-left: 120px;
+    margin-top: 30px;
+}
+
+.reviewer-info{
+    position: absolute;
+    left: 60%;
+    width: 350px;
+    padding: 10px;
+}
+
+.reviewer-data{
+    position: relative;
+    border-radius: 25px;
+    box-shadow:
+    inset 0 -3em 3em #e2e2e2,
+            0 0  0 1px #ececec,
+            0em 0.2em 0.3em #a1a1a1;
+    padding: 10px;
+    margin-top: 15px;
+}
+
+.reviewer-img{
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    border-radius: 150px;
+    overflow: hidden;
+    top: -47px;
+    left: 250px;
+}
+
+.reviewer-img img{
+    width: 100%;
+    height: 100%;
+}
+
+.reviewer-about{
+    position: absolute;
+    width: 70%;
+    margin-top: 140px;
+    border-radius: 25px;
+    padding: 15px;
+    box-shadow: 2px 2px 2px #a1a1a1, 0px 2px 2px 3px #e2e2e2;
+}
