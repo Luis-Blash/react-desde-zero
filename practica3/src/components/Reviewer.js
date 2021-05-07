@@ -53,9 +53,7 @@ class Reviewer extends React.Component {
                     </div>
                 )}
                 {this.state.loading && (
-                    <div className="loader">
-                        <h1>Cargando</h1>
-                        <p>{this.state.error}</p>
+                    <div class="loader">
                     </div>
                 )}
             </div>

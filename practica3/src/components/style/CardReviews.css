@@ -45,3 +45,11 @@
     height: 24px;
     background-color: #14c0cc;
 }
+
+.btn-reviews{
+    background: #14cc70;
+    width: 100%;
+    height: 4rem;
+    margin: 10px 0;
+    font-size: 3rem;
+}

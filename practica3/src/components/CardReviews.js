@@ -57,12 +57,10 @@ class CardReviews extends Component {
                 </div>
                 {this.state.loading && (
                     <div className="loader">
-                        <h1>Cargando</h1>
-                        <p>{this.state.error}</p>
                     </div>
                 )}
                 {!this.state.loading && (
-                    <button className="btn-reviews" onClick={() => this.fetchReviewers()}>Load</button>
+                    <button className="btn btn-reviews" onClick={() => this.fetchReviewers()}>Load</button>
                 )}
             </Fragment>
         );
